@@ -1,0 +1,9 @@
+.chose-option {
+    width: 30px;
+    height: 30px;
+}
+
+.user-modal {
+    max-width: 800px !important;
+    width: 100% !important;
+}

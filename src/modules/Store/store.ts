@@ -4,6 +4,7 @@ import {
   configureStore,
   createSlice,
 } from "@reduxjs/toolkit";
+import { userReducer } from "../../modules/User/state/user";
 
 const slice = createSlice({
   name: "test",
@@ -13,7 +14,10 @@ const slice = createSlice({
   },
 });
 
-const rootReducer = combineReducers({ test: slice.reducer });
+const rootReducer = combineReducers({
+  test: slice.reducer,
+  user: userReducer,
+});
 
 export const store = configureStore({
   reducer: rootReducer,

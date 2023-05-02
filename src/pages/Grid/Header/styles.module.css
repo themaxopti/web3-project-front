@@ -1,0 +1,16 @@
+.coonnect-btn {
+    display: flex;
+    column-gap: 5px;
+    font-size: small;
+    font-style: italic;
+}
+
+.user-icon {
+    flex-grow: 0;
+    flex-shrink: 0;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    overflow: hidden;
+    cursor: pointer;
+}
